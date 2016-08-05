@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#fff"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_marginTop="1dp"
+    android:padding="16dp"
+    android:gravity="center_vertical"
+    android:background="@drawable/navigationbar"
+    android:layout_alignParentTop="true"
+    android:id="@+id/topBarRead"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/back_read"
+        android:src="@drawable/ic_arrow_back"
+        android:layout_width="20dp"
+        android:layout_height="20dp" />
+    <TextView
+        android:id="@+id/titleTextRead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+<ScrollView
+
+    android:layout_below="@id/topBarRead"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<RelativeLayout
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="bookshelf.globdig.com.bookshelf.ReadMagazineActivity">
+    <ImageView
+        android:id="@+id/mainImageMagazine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_below="@id/mainImageMagazine"
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_below="@id/name"
+        android:id="@+id/introduction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:gravity="fill_horizontal"
+        android:text="sdfsdlkfjsdf sdfsdfs
+        fjsdflsjsdkf fdsfsfl
+        fjlkdsfjslfsdfsdlf sdf s
+        ljkfdsdlkjfsdklfj sdf
+        jlskdfjdsf sdjflkdskjflkdsjfkldsjfkljdslkfjdslkjfldskjflksd
+        fsdjlkfjsdklf"
+        android:layout_below="@id/introduction"
+        android:id="@+id/article"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_below="@id/article"
+        android:id="@+id/favLayout"
+        android:orientation="horizontal"
+
+        android:gravity="center_vertical|left"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+
+            android:id="@+id/favorite_button"
+
+            android:layout_width="20dp"
+            android:layout_height="20dp" />
+        <TextView
+            android:layout_marginLeft="8dp"
+            android:text="Mark as favorite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <Button
+        android:visibility="gone"
+        android:drawableLeft="@drawable/ic_nav_download"
+        android:id="@+id/downloadMagazine"
+        android:layout_below="@id/favLayout"
+        android:background="#eee"
+        android:textColor="#000"
+        android:padding="8dp"
+        android:text="Download Magazine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_marginTop="8dp"
+        android:padding="8dp"
+        android:visibility="gone"
+        android:background="#33CD5F"
+        android:textColor="#fff"
+        android:id="@+id/subscribeMagazine"
+        android:layout_below="@id/downloadMagazine"
+        android:text="Download Magazine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:drawableLeft="@drawable/ic_book"
+        android:padding="8dp"
+        android:layout_marginTop="8dp"
+        android:background="#D3222A"
+        android:textColor="#fff"
+        android:id="@+id/openMagazine"
+        android:layout_below="@id/subscribeMagazine"
+        android:text="Open Magazine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
+</ScrollView>
+</RelativeLayout>

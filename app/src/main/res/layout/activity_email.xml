@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" >
+<LinearLayout
+
+    android:layout_marginTop="1dp"
+    android:padding="16dp"
+    android:gravity="center_vertical"
+    android:background="@drawable/navigationbar"
+    android:layout_alignParentTop="true"
+
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+
+        android:layout_gravity="center_vertical"
+        android:id="@+id/back"
+        android:src="@drawable/ic_arrow_back"
+        android:layout_width="20dp"
+        android:layout_height="20dp" />
+    <TextView
+        android:id="@+id/backText"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="center_vertical"
+        android:text="@string/back"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+<RelativeLayout
+    android:layout_width="300dp"
+    android:layout_gravity="center_horizontal"
+    android:layout_height="wrap_content"
+
+    tools:context="bookshelf.globdig.com.bookshelf.EmailActivity">
+
+
+
+
+
+        <EditText
+            android:layout_marginTop="40dp"
+
+            android:id="@+id/subject"
+            android:hint="@string/subject"
+            android:textStyle="italic"
+            android:paddingLeft="10dp"
+            android:textColorHint="#ccc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    <EditText
+        android:layout_below="@id/subject"
+
+        android:id="@+id/content"
+        android:hint="@string/content"
+        android:textStyle="italic"
+        android:paddingLeft="10dp"
+        android:textColorHint="#ccc"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        />
+
+
+
+    <Button
+            android:layout_marginTop="40dp"
+            android:layout_below="@id/content"
+            android:id="@+id/sendEmail"
+            android:background="#D3222A"
+            android:textColor="#fff"
+            android:text="@string/send"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+
+
+    </RelativeLayout>
+    </LinearLayout>
+
+
+

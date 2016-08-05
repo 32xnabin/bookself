@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_gravity="center_horizontal|center_vertical"
+    android:layout_width="320dp"
+    android:layout_margin="20dp"
+    android:layout_height="match_parent"
+
+    android:background="#fff"
+    android:padding="8dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="bookshelf.globdig.com.bookshelf.ForgotPswActivity"
+    tools:showIn="@layout/activity_forgot_psw">
+    <ImageView
+        android:layout_marginBottom="40dp"
+        android:id="@+id/logoImage2"
+        android:src="@drawable/login_banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <EditText
+        android:layout_below="@id/logoImage2"
+
+        android:id="@+id/forgot_username"
+        android:hint="@string/user_name"
+        android:textStyle="italic"
+        android:paddingLeft="10dp"
+        android:textColorHint="#ccc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         />
+
+
+    <Button
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/forgot_username"
+        android:id="@+id/retrivePassword"
+        android:background="#D3222A"
+        android:textColor="#fff"
+        android:text="@string/forgot_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/forgot_login"
+        android:layout_below="@+id/retrivePassword"
+        android:text="@string/login"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/forgot_login"
+        android:id="@+id/forgot_new_user"
+        android:text="@string/new_user"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/forgot_new_user_register"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/forgot_new_user"
+        android:background="#eee"
+        android:layout_weight="1"
+        android:text="@string/register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/forgot_new_user_register"
+        android:id="@+id/forgot_message_text"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

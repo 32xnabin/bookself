@@ -1,0 +1,81 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="MyTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="CustomAlertDialogStyle">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:bottomBright">#000000</item>
+        <item name="android:bottomDark">#000000</item>
+        <item name="android:bottomMedium">#000000</item>
+        <item name="android:centerBright">#000000</item>
+        <item name="android:centerDark">#000000</item>
+        <item name="android:centerMedium">#000000</item>
+        <item name="android:fullBright">#000000</item>
+        <item name="android:fullDark">#000000</item>
+        <item name="android:topBright">#000000</item>
+        <item name="android:topDark">#000000</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:icon">@drawable/login_banner</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="MyAlertDialog" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="android:layout_height">40dp</item>
+    </style>
+
+    <style name="MyEditTextTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorControlNormal">#ccc</item>
+        <item name="colorControlActivated">#ccc</item>
+        <item name="colorControlHighlight">#ccc</item>
+    </style>
+
+    <style name="FullscreenTheme" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:actionBarStyle">@style/FullscreenActionBarStyle</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="metaButtonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="metaButtonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+    </style>
+
+    <style name="FullscreenActionBarStyle" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style>
+
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#fff"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="bookshelf.globdig.com.bookshelf.WebViewActivity">
+    <LinearLayout
+        android:layout_marginTop="1dp"
+        android:padding="16dp"
+        android:gravity="center_vertical"
+        android:background="@drawable/navigationbar"
+        android:layout_alignParentTop="true"
+        android:id="@+id/topBar"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+
+            android:layout_gravity="center_vertical"
+            android:id="@+id/back"
+            android:src="@drawable/ic_arrow_back"
+            android:layout_width="20dp"
+            android:layout_height="20dp" />
+        <TextView
+            android:id="@+id/backText"
+            android:layout_marginLeft="10dp"
+
+            android:layout_gravity="center_vertical"
+
+            android:text="@string/back"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+        <WebView
+            android:layout_below="@id/topBar"
+            android:id="@+id/release"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></WebView>
+
+
+
+</RelativeLayout>
+
+</FrameLayout>

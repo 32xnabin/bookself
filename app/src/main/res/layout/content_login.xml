@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="300dp"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:layout_gravity="center_horizontal|center_vertical"
+    android:background="#fff"
+
+    android:id="@+id/content_login"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="bookshelf.globdig.com.bookshelf.LoginActivity"
+    >
+
+    <ImageView
+        android:layout_marginBottom="24dp"
+        android:id="@+id/logoImage"
+        android:src="@drawable/login_banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:drawableLeft="@drawable/ic_person_grey"
+        android:paddingLeft="10dp"
+        android:layout_below="@id/logoImage"
+        android:id="@+id/username"
+        android:hint="@string/user_name"
+        android:textStyle="italic"
+        android:textColorHint="#ccc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/MyEditTextTheme"
+         />
+
+    <EditText
+        android:drawableLeft="@drawable/ic_lock_grey"
+        android:password="true"
+        android:textStyle="italic"
+        android:paddingLeft="10dp"
+        android:inputType="textPassword"
+        android:layout_below="@+id/username"
+        android:id="@+id/password"
+        android:hint="@string/password"
+        android:textColorHint="#ccc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/MyEditTextTheme"
+        />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/password"
+        android:id="@+id/login"
+        android:background="#D3222A"
+        android:textColor="#fff"
+        android:text="@string/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+    <TextView
+        android:layout_marginTop="4dp"
+          android:id="@+id/forgot_password"
+        android:layout_below="@+id/login"
+        android:text="@string/forgot_password"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="22dp"
+        android:layout_below="@+id/forgot_password"
+               android:id="@+id/new_user"
+        android:textStyle="bold"
+            android:text="@string/new_user"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/new_user_register"
+        android:layout_marginTop="10dp"
+          android:layout_below="@+id/new_user"
+         android:background="#eee"
+        android:layout_weight="1"
+        android:text="@string/register_new_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/new_user_register"
+        android:id="@+id/message_text"
+
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
+    </ScrollView>

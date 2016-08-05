@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">Travelnews Norway</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!--<string name="action_settings">Settings</string>-->
+
+    <!--&lt;!&ndash;sinup form&ndash;&gt;-->
+    <!--<string name="action_settings">Settings</string>-->
+    <!--<string name="title_activity_main2_activity_nav">Main2ActivityNav</string>-->
+
+    <!--<string name="navigation_drawer_open">Open navigation drawer</string>-->
+    <!--<string name="navigation_drawer_close">Close navigation drawer</string>-->
+
+
+    <!--..............Login.......................-->
+    <string name="user_name">brukernavn</string>
+    <string name="password">passord</string>
+    <string name="login">Logg inn</string>
+    <string name="forgot_password">Glemt passord</string>
+    <string name="new_user">Ny bruker</string>
+    <string name="register_new_user">Registrer ny bruker</string>
+
+    <!--..............Register.......................-->
+
+    <string name="fName">fornavn</string>
+    <string name="lName">etternavn</string>
+    <string name="company">Firma</string>
+    <string name="address1">Adresse </string>
+    <string name="address2">Adresse 2</string>
+    <string name="postalcode">Postnummer</string>
+    <string name="city">Poststed</string>
+    <string name="email">Epost</string>
+    <string name="contact">kontakt</string>
+
+    <!--<string name="Name"> Navn</string>-->
+    <!--<string name="Email"> Epost</string>-->
+    <!--<string name="Company"> Firma</string>-->
+    <!--<string name="Address_1"> Adresse 1</string>-->
+    <!--<string name="Address_2"> Adresse 2</string>-->
+    <!--<string name="Postal_code"> Postnummer</string>-->
+    <!--<string name="City">  Poststed</string>-->
+
+    <!--<string name="password">Magasiner</string>-->
+    <string name="confirmPassword">Bekreft passord</string>
+    <string name="customerID">Kunde ID</string>
+    <string name="register">Registrere</string>
+    <string name="cancel">Kansellere</string>
+    <!--..............Register.......................-->
+    <string name="retrive_password"> hente passord</string>
+
+
+    <!--..............HomePage.......................-->
+    <string name="search">Søke...</string>
+    <string name="Magazines">Magasiner</string>
+    <string name="Download"> Last ned </string>
+    <string name="Open_Magazine"> Åpne magasinet</string>
+    <string name="Read_Online"> Les online</string>
+    <string name="Mark_as_favorite"> Marker som favoritt</string>
+    <string name="Downloaded_magazines"> Nedlastede magasiner</string>
+    <string name="No_favorite_Magazines_available"> Ingen favoritter er valgt</string>
+    <string name="Favorite_magazines"> Favoritter</string>
+    <string name="Subscribe">Abonner</string>
+    <string name="Subscription_type"> Abonnements type</string>
+    <string name="My_Profile"> Min profil</string>
+
+    <string name="Setting"> Innstillinger</string>
+    <string name="Email_us"> Send oss epost</string>
+    <string name="Profile"> Profil</string>
+    <string name="Change_password"> Endre passord</string>
+    <string name="Old_password"> Nåværende passord</string>
+    <string name="New_password"> Nytt passord</string>
+    <string name="Confirm_password"> Gjenta nytt passord</string>
+    <string name="Logout"> Logg ut</string>
+    <string name="About"> Om Ledernytt</string>
+    <string name="Downloaded_files">Last ned </string>
+    <string name="Update">  Oppdater</string>
+    <string name="subject">Emne</string>
+    <string name="content">innhold</string>
+    <string name="send">sende</string>
+    <string name="back">tilbake</string>
+
+</resources>

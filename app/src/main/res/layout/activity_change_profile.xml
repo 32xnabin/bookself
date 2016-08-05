@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+
+    tools:context="bookshelf.globdig.com.bookshelf.ChangePasswordActivity">
+    <LinearLayout
+
+        android:layout_marginTop="1dp"
+        android:padding="16dp"
+        android:gravity="center_vertical"
+        android:background="@drawable/navigationbar"
+        android:layout_alignParentTop="true"
+        android:id="@+id/topBarChangeProfile"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+
+            android:layout_gravity="center_vertical"
+            android:id="@+id/back"
+            android:src="@drawable/ic_arrow_back"
+            android:layout_width="20dp"
+            android:layout_height="20dp" />
+        <TextView
+            android:id="@+id/backText"
+            android:layout_marginLeft="10dp"
+
+            android:layout_gravity="center_vertical"
+
+            android:text="@string/back"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <ScrollView
+        android:id="@+id/profile_fields_scroll"
+        android:layout_below="@id/topBarChangeProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_margin="44dp"
+        android:padding="8dp"
+        android:orientation="vertical"
+        android:gravity="left"
+
+        android:id="@+id/profile_fields"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="@string/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:textSize="14sp"
+
+            android:id="@+id/profile_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="@string/fName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:textSize="14sp"
+            android:id="@+id/profile_faname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="@string/lName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:textSize="14sp"
+            android:id="@+id/profile_laname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="@string/contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:textSize="14sp"
+            android:id="@+id/profile_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+
+        android:layout_below="@id/profile_fields_scroll"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/profile_buttons"
+        android:layout_width="300dp"
+        android:weightSum="2"
+        android:layout_height="wrap_content">
+        <Button
+            android:text="@string/Update"
+            android:id="@+id/profile_update"
+            android:layout_width="0dp"
+            android:textColor="#fff"
+            android:background="#D3222A"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_marginLeft="8dp"
+            android:text="@string/cancel"
+            android:id="@+id/profile_cancel"
+            android:layout_width="0dp"
+            android:background="#eee"
+            android:textColor="#000"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+    </RelativeLayout>

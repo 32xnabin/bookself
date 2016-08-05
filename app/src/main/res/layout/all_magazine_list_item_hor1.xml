@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:gravity="top|left"
+    android:weightSum="3"
+    android:padding="16dp"
+
+
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:gravity="top"
+        android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:layout_gravity="top|left"
+        android:src="@drawable/test_mag"
+        android:id="@+id/mag_image"
+
+        android:layout_width="match_parent"
+        android:adjustViewBounds="true"
+        android:layout_height="wrap_content"
+          />
+        </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+      android:layout_gravity="center_horizontal"
+
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_marginLeft="16dp"
+
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_alignParentTop="true"
+            android:id="@+id/mag_issue_date"
+            android:text="3 Jan 2016"
+            android:textSize="18dp"
+            android:ellipsize="end"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp"
+            android:layout_gravity="left"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginBottom="2dp"
+
+
+            android:id="@+id/mag_article"
+
+            android:ellipsize="middle"
+
+            android:textSize="15dp"
+
+
+            android:text="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione d quia non numquam eius "               android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+
+
+            android:layout_marginBottom="10dp"
+
+
+            android:id="@+id/favLayout"
+            android:orientation="horizontal"
+
+            android:gravity="center_vertical|left"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+
+                android:id="@+id/favorite_star"
+
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+            <TextView
+                android:layout_marginLeft="8dp"
+                android:textColor="#000"
+                android:text="Mark as favorite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/buttonsDown"
+
+            android:layout_alignParentBottom="true"
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <Button
+
+
+                android:layout_alignParentBottom="true"
+                android:drawableLeft="@drawable/ic_nav_download"
+                android:id="@+id/download_magazine"
+
+                android:background="#efefef"
+                android:textColor="#000"
+                android:padding="2dp"
+                android:text="@string/Download"
+                android:layout_margin="4dp"
+                android:layout_width="200dp"
+                android:layout_height="32dp" />
+
+
+
+            <Button
+                android:drawableLeft="@drawable/ic_onine"
+                android:padding="6dp"
+                android:layout_margin="4dp"
+                android:background="#000000"
+                android:textColor="#fff"
+                android:id="@+id/open_magazine_online"
+
+                android:text="@string/Read_Online"
+                android:layout_width="200dp"
+                android:layout_height="32dp" />
+            <Button
+                android:drawableLeft="@drawable/ic_book"
+                android:padding="6dp"
+                android:layout_margin="4dp"
+                android:background="#000000"
+                android:textColor="#fff"
+                android:id="@+id/open_magazine"
+
+                android:text="@string/Open_Magazine"
+                android:layout_width="200dp"
+                android:layout_height="32dp" />
+
+            <Button
+                android:drawableLeft="@drawable/email"
+                android:padding="6dp"
+                android:layout_margin="4dp"
+                android:background="#eeeeee"
+                android:textColor="#000000"
+                android:id="@+id/email_us_list"
+
+                android:text="@string/Email_us"
+                android:layout_width="200dp"
+                android:layout_height="32dp" />
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_magazines"
+            android:icon="@drawable/ic_book"
+            android:title="@string/Magazines" />
+        <item
+            android:id="@+id/nav_downloaded_magazines"
+            android:icon="@drawable/ic_nav_download"
+            android:title="@string/Downloaded_magazines" />
+        <item
+        android:id="@+id/nav_favorite_magazines"
+        android:icon="@drawable/ic_nav_fav"
+
+        android:title="@string/Favorite_magazines" />
+        <!--<item-->
+            <!--android:id="@+id/nav_subscribe"-->
+            <!--android:icon="@drawable/ic_subscribe"-->
+
+            <!--android:title="Subscribe" />-->
+
+    </group>
+    <item android:title="Communicate">
+
+        <item
+            android:id="@+id/nav_my_profile"
+            android:icon="@drawable/ic_nav_aboutus"
+            android:title="@string/My_Profile" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_tune"
+            android:title="@string/Setting" />
+        <item
+
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_nav_about_us"
+            android:title="@string/About" />
+    </item>
+
+
+
+
+
+</menu>

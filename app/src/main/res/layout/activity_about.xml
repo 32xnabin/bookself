@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+    android:background="#fff"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+
+
+
+
+        android:orientation="vertical"
+        android:id="@+id/about"
+
+
+        android:layout_width="match_parent"
+
+
+        android:layout_height="match_parent">
+    <LinearLayout
+
+
+        android:padding="16dp"
+        android:gravity="center_vertical"
+        android:background="@drawable/navigationbar"
+        android:layout_alignParentTop="true"
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+
+            android:layout_gravity="center_vertical"
+            android:id="@+id/back"
+            android:src="@drawable/ic_arrow_back"
+            android:layout_width="20dp"
+            android:layout_height="20dp" />
+        <TextView
+            android:id="@+id/backText"
+            android:layout_marginLeft="10dp"
+
+            android:layout_gravity="center_vertical"
+
+            android:text="Travel News Magazine"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+        <LinearLayout
+            android:visibility="gone"
+            android:layout_margin="6dp"
+            android:layout_marginTop="6dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Digital Magazine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="We met the giant five when we visited"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_margin="6dp"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <WebView
+                android:id="@+id/aboutWeb"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></WebView>
+            <TextView
+                android:visibility="gone"
+                android:text=""
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
